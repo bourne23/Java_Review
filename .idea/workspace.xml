@@ -4,21 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="50aa729a-6f2c-41f3-af0c-3e4d9c963424" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/generics/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/generics/src/main/java/ArrayListExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/generics/src/main/java/ObjectExamples/BaseballPlayer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/generics/src/main/java/ObjectExamples/BasketballPlayer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/generics/src/main/java/ObjectExamples/Player.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/generics/src/main/java/ObjectExamples/SoccerPlayer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/generics/src/main/java/ObjectExamples/Team.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/generics/src/main/java/ObjectExamples/TeamDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java_oop/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+    <list default="true" id="50aa729a-6f2c-41f3-af0c-3e4d9c963424" name="Changes" comment="added generics">
+      <change afterPath="$PROJECT_DIR$/java_oop/src/main/java/Arrays_review.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java_oop/src/main/java/review/GenericTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java_oop/src/main/java/review/MyUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java_oop/src/main/java/review/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java_oop/src/main/java/review/Teacher.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/generics/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java_oop/pom.xml" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,16 +43,36 @@
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;jdk.selected.JAVA_MODULE&quot;: &quot;1.8&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;SDKs&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
     &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.import&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.TeamDemo">
+  <component name="RunManager" selected="Application.GenericTest">
     <configuration name="ArrayListExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ArrayListExample" />
       <module name="generics" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Arrays_review" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Arrays_review" />
+      <module name="java_oop" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GenericTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="review.GenericTest" />
+      <module name="java_oop" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="review.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -89,6 +103,8 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.GenericTest" />
+        <item itemvalue="Application.Arrays_review" />
         <item itemvalue="Application.TeamDemo" />
         <item itemvalue="Application.ArrayListExample" />
       </list>
@@ -103,6 +119,14 @@
       <option name="presentableId" value="Default" />
       <updated>1658861797924</updated>
     </task>
+    <task id="LOCAL-00001" summary="initial commit">
+      <created>1659037858151</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1659037858151</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -115,6 +139,11 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="initial commit" />
+    <MESSAGE value="added generics" />
+    <option name="LAST_COMMIT_MESSAGE" value="added generics" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
