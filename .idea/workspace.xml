@@ -5,14 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="50aa729a-6f2c-41f3-af0c-3e4d9c963424" name="Changes" comment="added generics">
-      <change afterPath="$PROJECT_DIR$/java_oop/src/main/java/Arrays_review.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java_oop/src/main/java/review/GenericTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java_oop/src/main/java/review/MyUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java_oop/src/main/java/review/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java_oop/src/main/java/review/Teacher.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/collections/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/generics/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java_oop/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/generics/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java_oop/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java_oop/src/main/java/review/GenericTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/java_oop/src/main/java/review/GenericTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,23 +31,33 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="ProjectErrors" />
+  </component>
   <component name="ProjectId" id="2CUeru1J7xzyXyzWUYeRFCsoUha" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;1.8&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.import&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "jdk.selected.JAVA_MODULE": "11",
+    "last_opened_file_path": "/Users/Olessya/IdeaProjects/Java_Review/generics",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "reference.projectsettings.compiler.javacompiler"
   }
-}</component>
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/generics" />
+    </key>
+  </component>
   <component name="RunManager" selected="Application.GenericTest">
     <configuration name="ArrayListExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ArrayListExample" />
@@ -126,7 +135,14 @@
       <option name="project" value="LOCAL" />
       <updated>1659037858151</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="added generics">
+      <created>1659729523032</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1659729523032</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
