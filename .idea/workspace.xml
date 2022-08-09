@@ -5,13 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="50aa729a-6f2c-41f3-af0c-3e4d9c963424" name="Changes" comment="added generics">
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/collections/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/generics/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java_oop/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/collections/src/main/java/ArrayListReview.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/collections/src/main/java/MapReview.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/collections/src/main/java/SetReview.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/collections/src/main/java/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/collections/src/main/java/TwoSum.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java_oop/src/main/java/review/GenericTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/java_oop/src/main/java/review/GenericTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,8 +44,13 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
     "jdk.selected.JAVA_MODULE": "11",
     "last_opened_file_path": "/Users/Olessya/IdeaProjects/Java_Review/generics",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
@@ -58,10 +62,17 @@
       <recent name="$PROJECT_DIR$/generics" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.GenericTest">
+  <component name="RunManager" selected="Application.ArrayListReview">
     <configuration name="ArrayListExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ArrayListExample" />
       <module name="generics" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ArrayListReview" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ArrayListReview" />
+      <module name="collections" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -99,19 +110,9 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="JetRunConfigurationType">
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
-      <option name="filePath" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ArrayListReview" />
         <item itemvalue="Application.GenericTest" />
         <item itemvalue="Application.Arrays_review" />
         <item itemvalue="Application.TeamDemo" />
@@ -127,6 +128,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1658861797924</updated>
+      <workItem from="1660072802557" duration="159000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <created>1659037858151</created>
@@ -142,8 +144,18 @@
       <option name="project" value="LOCAL" />
       <updated>1659729523032</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="added generics">
+      <created>1659730703011</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1659730703012</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
