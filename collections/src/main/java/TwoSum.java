@@ -3,6 +3,13 @@ import java.util.HashMap;
 import java.util.Map;
 
 public class TwoSum {
+
+    //given an array of integers and target value, return indices (indexes) of the two numbers such that  they add up to target
+
+    //Qestions to ask: - is the array sorted?
+    //  - any dupl values accepted?
+    //  - accepting negative?
+
     public static void main(String[] args) {
         int[] myarray = {2, 7, 9, 11};
         System.out.println(Arrays.toString(twoSum1(myarray, 9)));

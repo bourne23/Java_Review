@@ -17,6 +17,8 @@ public class Student {
                 '}';
     }
 
+    // in Object Classes always create below two methods for java to do comparison of content correclly
+    // when adding to set for example
     @Override
     public boolean equals(Object o) {
         if (this == o) return true;

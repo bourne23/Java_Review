@@ -10,7 +10,7 @@ public class SetReview {
         mySet.add(new Student(7, "Marina"));
         mySet.add(new Student(8, "Tamara"));
         mySet.add(new Student(9, "Anita"));
-        mySet.add(new Student(9, "Julia"));
+        mySet.add(new Student(9, "Julia "));
 
         System.out.println(mySet);
 
