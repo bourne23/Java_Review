@@ -4,6 +4,13 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class OrangeTest {
+
+    private static void prettyPrintApple(List<Orange> inventory,OrangeFormatter orangeFormatter){
+        for(Orange orange : inventory){
+            String output = orangeFormatter.accept(orange);
+            System.out.println(output);
+        }
+    }
     public static void main(String[] args) {
 
         List<Orange> inventory = new ArrayList<>();
@@ -15,8 +22,6 @@ public class OrangeTest {
         inventory.add(Orange.builder().color(Color.GREEN).weight(100).build());
 
        // OrangeFormatter orangeFormatter = (Orange orange) -> "An orange of " + orange.getWeight() + "gram";
-
-
 
 
         OrangeFormatter simpleFormatter = orange -> "An orange of " + orange.getWeight() + "g";
@@ -41,19 +46,7 @@ public class OrangeTest {
         prettyPrintApple(inventory,fancyFormatter);
 
 
-
-
-
-
-
-
-
     }
 
-    private static void prettyPrintApple(List<Orange> inventory,OrangeFormatter orangeFormatter){
-        for(Orange orange : inventory){
-            String output = orangeFormatter.accept(orange);
-            System.out.println(output);
-        }
-    }
+
 }

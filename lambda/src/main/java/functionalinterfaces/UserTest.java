@@ -19,7 +19,7 @@ public class UserTest {
 
 
         //Print all users that last name starts with E
-        printName(users, user -> user.getLastName().startsWith("E"));
+       // printName(users, user -> user.getLastName().startsWith("E"));
     }
 
     private static void printName(List<User> users, Predicate<User> p){

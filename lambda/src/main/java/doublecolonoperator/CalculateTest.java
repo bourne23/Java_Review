@@ -1,13 +1,12 @@
 package doublecolonoperator;
 
-import java.sql.SQLOutput;
 import java.util.function.BiFunction;
 import java.util.function.Consumer;
 
-public class Demo {
+public class CalculateTest {
     public static void main(String[] args) {
 
-       // as function, we have Reference to a static method
+       //              Reference to a static method
         Calculate s1 = (x,y) -> Calculator.findSum(x,y);
         s1.calculate(10,20);
 

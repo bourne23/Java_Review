@@ -5,42 +5,28 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="50aa729a-6f2c-41f3-af0c-3e4d9c963424" name="Changes" comment="added collections review">
-      <change afterPath="$PROJECT_DIR$/lambda/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lambda/src/main/java/Examples.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lambda/src/main/java/appleExample/Apple.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lambda/src/main/java/appleExample/AppleHeavyPredicate.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lambda/src/main/java/appleExample/ApplePredicate.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lambda/src/main/java/appleExample/AppleTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lambda/src/main/java/appleExample/Color.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lambda/src/main/java/appleExample/GreenApplePredicate.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lambda/src/main/java/comparatorinterface/Apple.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lambda/src/main/java/comparatorinterface/Color.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lambda/src/main/java/comparatorinterface/ComparatorDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lambda/src/main/java/comparatorinterface/MyComparator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lambda/src/main/java/doublecolonoperator/Calculate.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lambda/src/main/java/doublecolonoperator/Calculator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lambda/src/main/java/doublecolonoperator/Car.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lambda/src/main/java/doublecolonoperator/CarTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lambda/src/main/java/doublecolonoperator/Demo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lambda/src/main/java/doublecolonoperator/MyClass.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lambda/src/main/java/functionalinterfaces/Examples.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lambda/src/main/java/functionalinterfaces/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lambda/src/main/java/functionalinterfaces/UserTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lambda/src/main/java/lambda/BubbleSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lambda/src/main/java/lambda/QuickSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lambda/src/main/java/lambda/Sorting.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lambda/src/main/java/lambda/SortingRunner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lambda/src/main/java/lombok/Color.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lambda/src/main/java/lombok/Orange.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lambda/src/main/java/lombok/OrangeFormatter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lambda/src/main/java/lombok/OrangeTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lambda/src/main/java/myExamples/Channel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lambda/src/main/java/myExamples/ChannelType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lambda/src/main/java/myExamples/Complete.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lambda/src/main/java/myExamples/Misc.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lambda/src/main/java/myExamples/Model.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lambda/src/main/java/myExamples/Process.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lambda/src/main/java/myExamples/ProcessMail.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lambda/src/main/java/myExamples/ProcessMisc.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lambda/src/main/java/myExamples/ProcessPhone.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lambda/src/main/java/myExamples/Runner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/collections/src/main/java/MapReview.java" beforeDir="false" afterPath="$PROJECT_DIR$/collections/src/main/java/MapReview.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/collections/src/main/java/SetReview.java" beforeDir="false" afterPath="$PROJECT_DIR$/collections/src/main/java/SetReview.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/collections/src/main/java/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/collections/src/main/java/Student.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/collections/src/main/java/TwoSum.java" beforeDir="false" afterPath="$PROJECT_DIR$/collections/src/main/java/TwoSum.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lambda/src/main/java/comparatorinterface/ComparatorDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/lambda/src/main/java/comparatorinterface/ComparatorDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lambda/src/main/java/comparatorinterface/MyComparator.java" beforeDir="false" afterPath="$PROJECT_DIR$/lambda/src/main/java/comparatorinterface/MyComparator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lambda/src/main/java/doublecolonoperator/Car.java" beforeDir="false" afterPath="$PROJECT_DIR$/lambda/src/main/java/doublecolonoperator/Car.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lambda/src/main/java/doublecolonoperator/CarTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/lambda/src/main/java/doublecolonoperator/CarConstructorTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lambda/src/main/java/doublecolonoperator/Demo.java" beforeDir="false" afterPath="$PROJECT_DIR$/lambda/src/main/java/doublecolonoperator/CalculateTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lambda/src/main/java/functionalinterfaces/UserTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/lambda/src/main/java/functionalinterfaces/UserTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lambda/src/main/java/lambda/QuickSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/lambda/src/main/java/lambda/QuickSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lambda/src/main/java/lambda/Sorting.java" beforeDir="false" afterPath="$PROJECT_DIR$/lambda/src/main/java/lambda/Sorting.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lambda/src/main/java/lambda/SortingRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/lambda/src/main/java/lambda/SortingRunner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lambda/src/main/java/lombok/OrangeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/lambda/src/main/java/lombok/OrangeTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,9 +36,10 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
+        <option value="Kotlin Class" />
         <option value="Enum" />
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -98,27 +85,7 @@
       <recent name="lambdaImpl" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.functionalinterfaces.Examples">
-    <configuration name="AppleTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="appleExample.AppleTest" />
-      <module name="lambda" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="appleExample.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ArrayListReview" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ArrayListReview" />
-      <module name="collections" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.myExamples.Runner">
     <configuration name="Examples" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Examples" />
       <module name="lambda" />
@@ -126,12 +93,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GenericTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="review.GenericTest" />
-      <module name="java_oop" />
+    <configuration name="Runner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lambda.lambda2.Runner" />
+      <module name="lambda" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="review.*" />
+          <option name="PATTERN" value="lambda.lambda2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SortingRunner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lambda.SortingRunner" />
+      <module name="lambda" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="lambda.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -144,7 +124,20 @@
       <module name="lambda" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="functionalinterfaces.*" />
+          <option name="PATTERN" value="myExamples.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="myExamples.Runner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="myExamples.Runner" />
+      <module name="lambda" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="myExamples.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -154,11 +147,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.myExamples.Runner" />
+        <item itemvalue="Application.Runner" />
+        <item itemvalue="Application.SortingRunner" />
         <item itemvalue="Application.functionalinterfaces.Examples" />
         <item itemvalue="Application.Examples" />
-        <item itemvalue="Application.AppleTest" />
-        <item itemvalue="Application.ArrayListReview" />
-        <item itemvalue="Application.GenericTest" />
       </list>
     </recent_temporary>
   </component>
@@ -172,7 +165,7 @@
       <updated>1658861797924</updated>
       <workItem from="1660072802557" duration="159000" />
       <workItem from="1660073178295" duration="17086000" />
-      <workItem from="1660343179296" duration="8389000" />
+      <workItem from="1660343179296" duration="33072000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <created>1659037858151</created>
@@ -202,7 +195,14 @@
       <option name="project" value="LOCAL" />
       <updated>1660073115776</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="added collections review">
+      <created>1660402543991</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1660402543991</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

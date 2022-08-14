@@ -8,17 +8,17 @@ import lombok.Setter;
 public class Car {
 
     private String make;
-    private int model;
+    private int year;
 
     public Car() {
     }
 
-    public Car(int model) {
-        this.model = model;
+    public Car(int year) {
+        this.year = year;
     }
 
-    public Car(String make, int model) {
+    public Car(String make, int year) {
         this.make = make;
-        this.model = model;
+        this.year = year;
     }
 }

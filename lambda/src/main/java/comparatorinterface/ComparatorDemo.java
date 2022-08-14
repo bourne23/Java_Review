@@ -18,14 +18,18 @@ public class ComparatorDemo {
         System.out.println(list);
 
         //Descending order
-        Collections.sort(list,new MyComparator());
+        Collections.sort(list,new MyComparator());   //behavior parameterization
         System.out.println(list);
 
+        // passing lambda directly
         Collections.sort(list,((o1,o2) -> (o1>o2) ? -1 : (o1<o2) ? 1:0));
 
+        // static method , takes list and every element compares to each other > / <
         //Ascending
         list.sort((o1,o2) -> o1.compareTo(o2));
         System.out.println(list);
+
+        list.sort((o1,o2)-> o1.compareTo(o2));
 
         //Descending
         list.sort((o2,o1) -> o1.compareTo(o2));
