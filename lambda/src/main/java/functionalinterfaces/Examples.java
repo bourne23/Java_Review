@@ -42,8 +42,11 @@ public class Examples {
         System.out.println(randomValue.get());
 
 
+        // ***********Predicate***********
+//       (p) -> p%2 ==0 ? true : false;  how to find interface matching?
+        // accept 1 param, return boolean
 
-
+    // interface,   type of p , (p) accept 1 param, -> returtns boolean
         Predicate<Integer> pred = (p) -> p%2 ==0 ? true : false;
         System.out.println(pred.test(10));
 

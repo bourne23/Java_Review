@@ -13,6 +13,7 @@
         <module>java_oop</module>
         <module>collections</module>
         <module>lambda</module>
+        <module>streams</module>
     </modules>
 
     <dependencies>

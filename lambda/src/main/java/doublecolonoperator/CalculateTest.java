@@ -46,8 +46,15 @@ public class CalculateTest {
         display2.accept(50);
 
 
+        // pass MyClass as class type
+        // integer - method accept param
+        //double - return type
          BiFunction<MyClass,Integer,Double> v2 = MyClass::method;
+         v2.apply(new MyClass(), 8);
 
+         // class type String
+        // method param
+        //return type
          BiFunction<String,String,String> v3 = String::concat;
 
 
