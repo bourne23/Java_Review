@@ -18,7 +18,7 @@ public class DishTask {
 
 
         //2. print dishes names under 400 cal -- call static method directly through class
-
+        System.out.println("***********************");
         DishData.getData().stream()
                 .filter(dish -> (dish.getCalories()<400))
   /*Dish(name=rice, vegetarian=true, calories=350, type=OTHER)
@@ -30,7 +30,7 @@ season fruit
 shrimp*/
                 .forEach(System.out::println);
 
-
+        System.out.println("***********************");
         //3. print length of name of each dish
                DishData.getData()
                        .stream()
@@ -38,6 +38,7 @@ shrimp*/
                        .map(String::length)
                        .forEach(System.out::println);
 
+        System.out.println("***********************");
         //4. print Three high caloric dishes
         DishData.getData().stream()
                 .filter(dish -> (dish.getCalories()>300))
@@ -45,6 +46,7 @@ shrimp*/
                 .limit(3)
                 .forEach(System.out::println);
 
+        System.out.println("***********************");
         // 5. sorted Asc order and below 400 cal
 
         DishData.getData().stream()
@@ -53,12 +55,14 @@ shrimp*/
                 .map(Dish::getName)
                 .forEach(System.out::println);
 
+        System.out.println("***********************");
         DishData.getData().stream()
                 .filter(dish -> (dish.getCalories()<400))
                 .sorted(comparing(Dish::getCalories))
                 .map(Dish::getName)
                 .forEach(System.out::println);
 
+        System.out.println("***********************");
   // Sort Desc order
         DishData.getData().stream()
                 .filter(dish -> (dish.getCalories()<400))

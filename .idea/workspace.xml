@@ -4,28 +4,22 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="50aa729a-6f2c-41f3-af0c-3e4d9c963424" name="Changes" comment="lambda">
-      <change afterPath="$PROJECT_DIR$/streams/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/streams/src/main/java/Course.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/streams/src/main/java/CreatingStream.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/streams/src/main/java/Dish.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/streams/src/main/java/DishData.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/streams/src/main/java/DishTask.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/streams/src/main/java/FlatEmplTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/streams/src/main/java/FlatEmployee.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/streams/src/main/java/FlatEmployeeData.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/streams/src/main/java/FlatteningMap.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/streams/src/main/java/StreamOperations.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/streams/src/main/java/Type.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+    <list default="true" id="50aa729a-6f2c-41f3-af0c-3e4d9c963424" name="Changes" comment="Streams initial">
+      <change afterPath="$PROJECT_DIR$/streams/src/main/java/CreateInfiniteStream.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/streams/src/main/java/JavaCollectors.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/streams/src/main/java/MatchingAndFinding.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/streams/src/main/java/Reducing.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/streams/src/main/java/State.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/streams/src/main/java/StateTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/streams/src/main/java/Trader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/streams/src/main/java/TraderTransaction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/streams/src/main/java/TransactionData.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/streams/src/main/java/TransactionTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lambda/src/main/java/comparatorinterface/Apple.java" beforeDir="false" afterPath="$PROJECT_DIR$/lambda/src/main/java/comparatorinterface/Apple.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lambda/src/main/java/comparatorinterface/ComparatorDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/lambda/src/main/java/comparatorinterface/ComparatorDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lambda/src/main/java/comparatorinterface/MyComparator.java" beforeDir="false" afterPath="$PROJECT_DIR$/lambda/src/main/java/comparatorinterface/MyComparator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lambda/src/main/java/doublecolonoperator/CalculateTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/lambda/src/main/java/doublecolonoperator/CalculateTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lambda/src/main/java/doublecolonoperator/CarConstructorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/lambda/src/main/java/doublecolonoperator/CarConstructorTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lambda/src/main/java/functionalinterfaces/Examples.java" beforeDir="false" afterPath="$PROJECT_DIR$/lambda/src/main/java/functionalinterfaces/Examples.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/streams/src/main/java/CreatingStream.java" beforeDir="false" afterPath="$PROJECT_DIR$/streams/src/main/java/CreateStream.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/streams/src/main/java/DishTask.java" beforeDir="false" afterPath="$PROJECT_DIR$/streams/src/main/java/DishTask.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/streams/src/main/java/FlatEmplTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/streams/src/main/java/FlatEmplTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/streams/src/main/java/FlatteningMap.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -85,61 +79,49 @@
       <recent name="lambdaImpl" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.FlatEmplTest">
-    <configuration name="ComparatorDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="comparatorinterface.ComparatorDemo" />
-      <module name="lambda" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="comparatorinterface.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="DishTask" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="DishTask" />
+  <component name="RunManager" selected="Application.JavaCollectors">
+    <configuration name="CreateInfiniteStream" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="CreateInfiniteStream" />
       <module name="streams" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FlatEmplTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="FlatEmplTest" />
+    <configuration name="JavaCollectors" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="JavaCollectors" />
       <module name="streams" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StreamOperations" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="StreamOperations" />
+    <configuration name="Reducing" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Reducing" />
       <module name="streams" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="myExamples.Runner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="myExamples.Runner" />
-      <module name="lambda" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="myExamples.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
+    <configuration name="StateTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="StateTest" />
+      <module name="streams" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TransactionTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="TransactionTest" />
+      <module name="streams" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.FlatEmplTest" />
-        <item itemvalue="Application.DishTask" />
-        <item itemvalue="Application.StreamOperations" />
-        <item itemvalue="Application.ComparatorDemo" />
-        <item itemvalue="Application.myExamples.Runner" />
+        <item itemvalue="Application.JavaCollectors" />
+        <item itemvalue="Application.CreateInfiniteStream" />
+        <item itemvalue="Application.TransactionTest" />
+        <item itemvalue="Application.StateTest" />
+        <item itemvalue="Application.Reducing" />
       </list>
     </recent_temporary>
   </component>
@@ -153,7 +135,7 @@
       <updated>1658861797924</updated>
       <workItem from="1660072802557" duration="159000" />
       <workItem from="1660073178295" duration="17086000" />
-      <workItem from="1660343179296" duration="47501000" />
+      <workItem from="1660343179296" duration="66445000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <created>1659037858151</created>
@@ -197,7 +179,14 @@
       <option name="project" value="LOCAL" />
       <updated>1660437980420</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Streams initial">
+      <created>1660492917491</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1660492917491</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -219,7 +208,8 @@
     <MESSAGE value="added generics" />
     <MESSAGE value="added collections review" />
     <MESSAGE value="lambda" />
-    <option name="LAST_COMMIT_MESSAGE" value="lambda" />
+    <MESSAGE value="Streams initial" />
+    <option name="LAST_COMMIT_MESSAGE" value="Streams initial" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -228,6 +218,11 @@
           <url>file://$PROJECT_DIR$/collections/src/main/java/MapReview.java</url>
           <line>7</line>
           <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/streams/src/main/java/Trader.java</url>
+          <line>5</line>
+          <option name="timeStamp" value="2" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
